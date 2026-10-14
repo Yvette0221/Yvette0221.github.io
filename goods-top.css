@@ -1,0 +1,141 @@
+#Y{
+	font-size:40px;
+	color:lightcyan;
+	font-family:serif;
+}
+#V{
+	font-size:30px;
+	color:lightcyan;
+}
+#col1{
+	float:left;
+}
+#col2{
+	float:left;
+	padding-top:12px;
+}
+#col3{
+	float:left;
+	padding-top:12px;
+}
+#col4{
+	padding-left:10%;
+	text-align: center;
+	margin-bottom: 3px;	
+}
+#topa1{
+	text-decoration: none;
+	color:darkcyan;
+	background-color: lightcyan;
+	float: left;
+	margin-top:30px;
+	margin-left:2.5%;
+	padding:10px 10%;
+	border-right:1px solid darkcyan;
+}
+
+#topa1:hover{
+	color:#CFF6FF;
+	background-color:#309ABA;
+}
+
+#topa{
+	text-decoration: none;
+	color:darkcyan;
+	background-color: lightcyan;
+	margin-top:10px;
+	float: left;
+	margin-right: 0.01%;
+}
+.dropdown {
+	margin-top: 30px;
+	float: left;
+	position: relative;
+	padding:0 9%;
+	background-color: lightcyan;
+	border-right:1px solid darkcyan;
+}
+#triangle{
+	float: left;
+	color:darkcyan;
+	margin-top: 4px;
+}
+#toph{
+	text-decoration: none;
+	color:darkcyan;
+	background-color: lightcyan;
+	margin-top:30px;
+	padding:10px 10%;
+	float: left;
+	margin-right:-20px;
+}
+#toph:hover{
+	color:#CFF6FF;
+	background-color: #309ABA;
+}
+.img1{
+	width:24.8%;
+	height:400px;
+	border-radius:12px;
+	margin-top: 20px;
+}
+#logo{
+	width:100%;
+	height:70px;
+	border-radius:40px;
+}
+#account{
+	float:left;
+}
+#atop{
+	padding-top:10px;
+
+}
+#aimg{
+	float:left;
+	padding-left:10px;
+
+}
+.login{
+	text-decoration: none;
+	color:darkcyan;
+	margin-top: 25px;
+	float: left;
+}
+.login:hover{
+	color:#CFF6FF;
+	background-color: #309ABA;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	min-width: 100%;
+	background-color: lightcyan;
+	z-index: 100;
+}
+.dropdown-content a {
+	display: block;
+	padding: 12px 20%;
+	color: darkcyan;
+	text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content a:hover {
+	color: #CFF6FF;
+	background-color: #309ABA;
+}
+.content{
+	width:60%;
+}
+#tb{
+	background-color:#0BD9E0;
+	position:sticky;
+    top:0;
+    z-index: 1000;
+    height: 80px;
+    width:100%;
+}

@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<link href='goods-top.css' type='text/css' rel='stylesheet'>
+	<style>
+		body{
+			margin:0;
+			font-family: Arial, sans-serif;
+			font-size:15px;
+			background:linear-gradient(180deg, #FFFFFF, #06B5BF);
+			min-height: 100vh;
+			display:flex;
+			padding-inline: 0;
+		}
+		#bar{
+			background-color:rgba(0,0,0,0.5);
+			margin:auto auto;
+			width:28%;
+			padding:30px;
+			color:white;
+			border-radius:15px;
+			box-shadow:0 10px 20px black;
+			}
+		.row{
+			overflow:auto;
+		}
+		label{
+			margin-right:10px;
+			float:left;
+			padding:10px 0;
+		}
+		#phone_number{
+			width:65%;
+			border:none;
+			border-bottom: 1px solid white;
+			background:transparent;
+			color:white;
+			padding:8px 0;
+			outline:none;
+			float:left;
+		}
+		#password{
+			width:74%;
+			border:none;
+			border-bottom: 1px solid white;
+			background:transparent;
+			color:white;
+			padding:8px 0;
+			outline:none;
+			float:left;
+			margin-bottom:15px;
+		}
+		#submit{
+			border:none;
+			background-color:rgb(0,0,0,0.4);
+			box-shadow:0 7px 15px black;
+			border-radius:5px;
+			padding:5px 5px;
+			color:white;
+			outline:none;
+			clear:both;
+			display:block;
+			font-size:17px;
+			font-weight:bold;
+		}
+		.link{
+			color:cyan;
+			text-decoration: none;
+		}
+		#back{
+			text-decoration: none;
+			font-size:30px;
+	</style>
+</head>
+<body>
+	<a href='index.html' id='back'>↩</a>
+	<div id='bar'>
+		<h2>Sign in to Yvia</h2>
+		<form action='yvia.html'>
+			<div class='row'>
+			    <label for='phone_nmber'>Phone number:</label>
+			    <input id='phone_number' type='tel' name='phone_number'>
+			</div>
+			<div class='row'>
+			    <label for='password'>Password:</label>
+			    <input id='password' type='password' name='password'>
+			</div>
+			<input type='submit' value='Login' id='submit'>
+		</form>
+		<br>
+		<a href='login1.html' class='link'>Log in with your email</a>
+		<p>Don't have an account?<a href='signup.html' class='link'>Create an account</a></p>
+	</div>
+</body>
+</html>
